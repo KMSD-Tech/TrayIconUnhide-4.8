@@ -1,0 +1,15 @@
+D:\TrayIconUnhide-4.8\TrayIconUnhide\bin\Debug\net6.0\TrayIconUnhide.exe
+D:\TrayIconUnhide-4.8\TrayIconUnhide\bin\Debug\net6.0\TrayIconUnhide.deps.json
+D:\TrayIconUnhide-4.8\TrayIconUnhide\bin\Debug\net6.0\TrayIconUnhide.runtimeconfig.json
+D:\TrayIconUnhide-4.8\TrayIconUnhide\bin\Debug\net6.0\TrayIconUnhide.dll
+D:\TrayIconUnhide-4.8\TrayIconUnhide\bin\Debug\net6.0\TrayIconUnhide.pdb
+D:\TrayIconUnhide-4.8\TrayIconUnhide\obj\Debug\net6.0\TrayIconUnhide.csproj.AssemblyReference.cache
+D:\TrayIconUnhide-4.8\TrayIconUnhide\obj\Debug\net6.0\TrayIconUnhide.GeneratedMSBuildEditorConfig.editorconfig
+D:\TrayIconUnhide-4.8\TrayIconUnhide\obj\Debug\net6.0\TrayIconUnhide.AssemblyInfoInputs.cache
+D:\TrayIconUnhide-4.8\TrayIconUnhide\obj\Debug\net6.0\TrayIconUnhide.AssemblyInfo.cs
+D:\TrayIconUnhide-4.8\TrayIconUnhide\obj\Debug\net6.0\TrayIconUnhide.csproj.CoreCompileInputs.cache
+D:\TrayIconUnhide-4.8\TrayIconUnhide\obj\Debug\net6.0\TrayIconUnhide.dll
+D:\TrayIconUnhide-4.8\TrayIconUnhide\obj\Debug\net6.0\refint\TrayIconUnhide.dll
+D:\TrayIconUnhide-4.8\TrayIconUnhide\obj\Debug\net6.0\TrayIconUnhide.pdb
+D:\TrayIconUnhide-4.8\TrayIconUnhide\obj\Debug\net6.0\TrayIconUnhide.genruntimeconfig.cache
+D:\TrayIconUnhide-4.8\TrayIconUnhide\obj\Debug\net6.0\ref\TrayIconUnhide.dll

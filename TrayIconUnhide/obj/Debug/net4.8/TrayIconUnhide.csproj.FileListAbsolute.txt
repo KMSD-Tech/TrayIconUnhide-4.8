@@ -1,0 +1,6 @@
+D:\TrayIconUnhide-4.8\TrayIconUnhide\obj\Debug\net4.8\TrayIconUnhide.csproj.AssemblyReference.cache
+D:\TrayIconUnhide-4.8\TrayIconUnhide\obj\Debug\net4.8\TrayIconUnhide.csproj.SuggestedBindingRedirects.cache
+D:\TrayIconUnhide-4.8\TrayIconUnhide\obj\Debug\net4.8\TrayIconUnhide.GeneratedMSBuildEditorConfig.editorconfig
+D:\TrayIconUnhide-4.8\TrayIconUnhide\obj\Debug\net4.8\TrayIconUnhide.AssemblyInfoInputs.cache
+D:\TrayIconUnhide-4.8\TrayIconUnhide\obj\Debug\net4.8\TrayIconUnhide.AssemblyInfo.cs
+D:\TrayIconUnhide-4.8\TrayIconUnhide\obj\Debug\net4.8\TrayIconUnhide.csproj.CoreCompileInputs.cache

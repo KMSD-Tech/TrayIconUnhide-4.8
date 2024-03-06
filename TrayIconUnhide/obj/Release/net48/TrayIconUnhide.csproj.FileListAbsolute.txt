@@ -1,0 +1,11 @@
+D:\TrayIconUnhide-4.8\TrayIconUnhide\bin\Release\net48\TrayIconUnhide.exe.config
+D:\TrayIconUnhide-4.8\TrayIconUnhide\bin\Release\net48\TrayIconUnhide.exe
+D:\TrayIconUnhide-4.8\TrayIconUnhide\bin\Release\net48\TrayIconUnhide.pdb
+D:\TrayIconUnhide-4.8\TrayIconUnhide\obj\Release\net48\TrayIconUnhide.csproj.AssemblyReference.cache
+D:\TrayIconUnhide-4.8\TrayIconUnhide\obj\Release\net48\TrayIconUnhide.csproj.SuggestedBindingRedirects.cache
+D:\TrayIconUnhide-4.8\TrayIconUnhide\obj\Release\net48\TrayIconUnhide.GeneratedMSBuildEditorConfig.editorconfig
+D:\TrayIconUnhide-4.8\TrayIconUnhide\obj\Release\net48\TrayIconUnhide.AssemblyInfoInputs.cache
+D:\TrayIconUnhide-4.8\TrayIconUnhide\obj\Release\net48\TrayIconUnhide.AssemblyInfo.cs
+D:\TrayIconUnhide-4.8\TrayIconUnhide\obj\Release\net48\TrayIconUnhide.csproj.CoreCompileInputs.cache
+D:\TrayIconUnhide-4.8\TrayIconUnhide\obj\Release\net48\TrayIconUnhide.exe
+D:\TrayIconUnhide-4.8\TrayIconUnhide\obj\Release\net48\TrayIconUnhide.pdb

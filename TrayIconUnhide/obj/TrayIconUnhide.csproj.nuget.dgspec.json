@@ -1,0 +1,47 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\TrayIconUnhide-4.8\\TrayIconUnhide\\TrayIconUnhide.csproj": {}
+  },
+  "projects": {
+    "D:\\TrayIconUnhide-4.8\\TrayIconUnhide\\TrayIconUnhide.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\TrayIconUnhide-4.8\\TrayIconUnhide\\TrayIconUnhide.csproj",
+        "projectName": "TrayIconUnhide",
+        "projectPath": "D:\\TrayIconUnhide-4.8\\TrayIconUnhide\\TrayIconUnhide.csproj",
+        "packagesPath": "C:\\Users\\defouwv\\.nuget\\packages\\",
+        "outputPath": "D:\\TrayIconUnhide-4.8\\TrayIconUnhide\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\defouwv\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.419\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
