@@ -13,28 +13,41 @@ class Program
     const int SW_HIDE = 0;
     const int SW_SHOW = 5;
 
-    static void Main(string[] args)
+static void Main(string[] args)
+{
+    var handle = GetConsoleWindow();
+    ShowWindow(handle, SW_HIDE);
+
+    // To show the console window (if needed):
+    // ShowWindow(handle, SW_SHOW);
+
+    int refreshInterval = 50; // default value
+    bool runOnce = false;
+
+    for (int i = 0; i < args.Length; i++)
     {
-        var handle = GetConsoleWindow();
-        ShowWindow(handle, SW_HIDE);
-
-        // To show the console window (if needed):
-        // ShowWindow(handle, SW_SHOW);
-
-        int refreshInterval = 50; // default value
-        if (args.Length > 0 && args[0] == "--refresh" && args.Length > 1 && int.TryParse(args[1], out int argValue))
+        if (args[i] == "--refresh" && i + 1 < args.Length && int.TryParse(args[i + 1], out int argValue))
         {
             refreshInterval = argValue;
         }
-
-        while (true)
+        else if (args[i] == "--runonce")
         {
-            CheckAndUpdateRegistryValue(@"Control Panel\NotifyIconSettings");
-            Thread.Sleep(TimeSpan.FromSeconds(refreshInterval));
+            runOnce = true;
         }
     }
 
-    static void CheckAndUpdateRegistryValue(string registryPath)
+    CheckAndUpdateRegistryValue(@"Control Panel\NotifyIconSettings");
+
+    if (!runOnce)
+    {
+        while (true)
+        {
+            Thread.Sleep(TimeSpan.FromSeconds(refreshInterval));
+            CheckAndUpdateRegistryValue(@"Control Panel\NotifyIconSettings");
+        }
+    }
+}
+static void CheckAndUpdateRegistryValue(string registryPath)
     {
         const string propertyName = "IsPromoted";
 
