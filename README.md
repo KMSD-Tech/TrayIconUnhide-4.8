@@ -40,6 +40,14 @@ Replace `<IntervalInSeconds>` with your desired interval. For example, to set th
 C:\ProgramData\Scripts\TrayIconUnhide.exe --refresh 10
 ```
 
+## Optional - Run the program once and then close
+
+```
+C:\ProgramData\Scripts\TrayIconUnhide.exe --runonce
+```
+
+Run in this mode, it will unhide the icons once and then immediately close - this is useful if you don't want the program to run continously
+
 ## Conclusion
 
 After completing these steps, TrayIconUnhide will run automatically at startup and refresh your tray icons at the specified interval.
