@@ -1,3 +1,5 @@
+4/26/2024 - If you had previously downloaded this application - I just pushed a brand new release.  The original application was written as a console application.  I found that on some systems the console window would not reliably hide.  I rewrote this new version as a Forms application instead and tested each of the core features.  It now seems to reliably hide on the few systems where it was not doing that before.
+
 # TrayIconUnhide Setup Instructions
 
 Follow these steps to set up TrayIconUnhide on your computer. This tool is designed to periodically unhide tray icons on Windows.
