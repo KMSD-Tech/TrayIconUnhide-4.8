@@ -42,6 +42,15 @@ namespace TrayIconUnhide
             }
         }
 
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams cp = base.CreateParams;
+                cp.ExStyle |= 0x80;  // Turn on WS_EX_TOOLWINDOW
+                return cp;
+            }
+        }
         private void CheckAndUpdateRegistryValue(string registryPath)
         {
             const string propertyName = "IsPromoted";
