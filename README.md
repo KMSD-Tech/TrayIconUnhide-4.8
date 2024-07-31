@@ -1,10 +1,11 @@
 7/31/2024 - I added some new code to help with the Form not always hiding on some platforms.  As I had tested this on more systems, I found that on some devices, it would show a top bar for the Form1 application.
 Adding this is supposed to repair that problem:
+```
         protected override void SetVisibleCore(bool value)
         {
             base.SetVisibleCore(this.DesignMode); // Only show in design mode
         }
-
+```
 4/26/2024 - If you had previously downloaded this application - I just pushed a brand new release.  The original application was written as a console application.  I found that on some systems the console window would not reliably hide.  I rewrote this new version as a Forms application instead and tested each of the core features.  It now seems to reliably hide on the few systems where it was not doing that before.
 
 # TrayIconUnhide Setup Instructions
