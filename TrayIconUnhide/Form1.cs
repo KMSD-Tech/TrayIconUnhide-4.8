@@ -51,6 +51,12 @@ namespace TrayIconUnhide
                 return cp;
             }
         }
+
+        protected override void SetVisibleCore(bool value)
+        {
+            base.SetVisibleCore(this.DesignMode); // Only show in design mode
+        }
+
         private void CheckAndUpdateRegistryValue(string registryPath)
         {
             const string propertyName = "IsPromoted";
