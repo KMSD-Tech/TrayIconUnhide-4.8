@@ -1,6 +1,7 @@
 using Microsoft.Win32;
 using System;
 using System.Windows.Forms;
+using System.Threading.Tasks;
 
 namespace TrayIconUnhide
 {
@@ -8,6 +9,7 @@ namespace TrayIconUnhide
     {
         private int refreshInterval = 50; // default value
         private bool runOnce = false;
+        private int runOnceAfter = 0; // default value
 
         public Form1(string[] args)
         {
@@ -25,9 +27,20 @@ namespace TrayIconUnhide
                 {
                     runOnce = true;
                 }
+                else if (args[i] == "--runonceafter" && i + 1 < args.Length && int.TryParse(args[i + 1], out int argValuerunOnceAfter))
+                {
+                    runOnceAfter = argValuerunOnceAfter;
+                }
             }
 
-            CheckAndUpdateRegistryValue(@"Control Panel\NotifyIconSettings");
+            if (runOnceAfter > 0)
+            {
+                Task.Delay(runOnceAfter * 1000).ContinueWith(_ => CheckAndUpdateRegistryValue(@"Control Panel\NotifyIconSettings")); // convert to milliseconds
+            }
+            else
+            {
+                CheckAndUpdateRegistryValue(@"Control Panel\NotifyIconSettings");
+            }
 
             if (runOnce)
             {
@@ -41,7 +54,6 @@ namespace TrayIconUnhide
                 timer.Start();
             }
         }
-
         protected override CreateParams CreateParams
         {
             get
