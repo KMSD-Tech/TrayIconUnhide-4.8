@@ -56,7 +56,7 @@ C:\ProgramData\Scripts\TrayIconUnhide.exe --refresh 10
 C:\ProgramData\Scripts\TrayIconUnhide.exe --runonce
 ```
 
-Run in this mode, it will unhide the icons once and then immediately close - this is useful if you don't want the program to run continously
+Run in this mode, it will unhide the icons once and then immediately close - this is useful if you don't want the program to run continuously
 
 ## Conclusion
 
